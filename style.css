@@ -11,7 +11,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  /* background-image: url(images/pexels-alex-andrews-1983036.jpg); */
 }
 
 .content {
@@ -61,7 +60,7 @@ li {
   display: block;
   position: relative;
   width: 2%;
-  border: 2px solid #898989;
+  border: 2px solid #f9faf8;
   margin-top: 8px;
 }
 
@@ -124,11 +123,11 @@ li {
 .second-mid {
   flex-direction: column;
   padding: 30px;
+  color: black;
 }
 
 .second-mid h2 {
   font-size: 36px bolder;
-  color: #1f2937;
 }
 
 .img-columns {
@@ -157,6 +156,7 @@ li {
 
   margin-top: 10px;
   text-align: center;
+  font-weight: bolder;
 }
 
 .columns img {
@@ -164,6 +164,24 @@ li {
   height: 450pxs;
   /* border: #3882f6 2px solid; */
   border-radius: 20px;
+}
+
+.bg-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  isolation: isolate;
+}
+
+.bg-image::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: url(images/pexels-alex-andrews-1983036.jpg);
+  opacity: 0.5;
 }
 
 .third-mid {
@@ -183,6 +201,7 @@ li {
   font-style: italic;
   font-size: 24px;
   color: #1f2937;
+  padding: 10px;
 }
 
 .author {
@@ -195,8 +214,8 @@ li {
 }
 
 .fourth-mid-1 {
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: #f6ca38;
+  color: #1f2937;
 
   width: 1080px;
   padding: 30px;
@@ -223,8 +242,8 @@ li {
 }
 
 .sign-up {
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: #f6ca38;
+  color: #1f2937;
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -232,8 +251,8 @@ li {
 }
 
 .sign-up2 {
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: #f6ca38;
+  color: #1f2937;
   width: 100px;
   padding: 10px;
   border-radius: 10px;
