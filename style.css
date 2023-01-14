@@ -71,6 +71,7 @@ li {
 .icon-link {
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 
 .icon-link li {
@@ -248,6 +249,7 @@ li {
   border-radius: 10px;
   border: none;
   width: 100px;
+  cursor: pointer;
 }
 
 .sign-up2 {
@@ -259,6 +261,7 @@ li {
   margin-left: 10px;
   margin-top: 10px;
   border: #f9faf8 2px solid;
+  cursor: pointer;
 }
 
 footer {
